@@ -1,0 +1,22 @@
+{
+  "name": "gabidj/dot-controller-compat",
+  "type": "library",
+  "description": "psr/http-server-middleware compatibility layer for controller using http-interop/http-middleware",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "gabidj",
+      "email": "gabi@apidemia.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "psr/http-message": "^1.0",
+    "psr/http-server-middleware": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dot\\ControllerCompat\\": "src/"
+    }
+  }
+}
